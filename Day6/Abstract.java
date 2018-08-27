@@ -1,6 +1,6 @@
 abstract class Vehicle
 {
-abstract public void start();
+ public abstract void start();
 public void stop()
 {
 System.out.println("Stop Vehicle");
