@@ -1,18 +1,17 @@
- class Demo
+final class Demo
 {
-	public void show()
+	
+}
+class LastClass extends Demo
+{
+	public  void show()
 	{
 		System.out.println("This class cannot be extended further.");
 	}
-}
-class Derived extends Demo
-{
-}
-public class LastClass
-{
-	public static void main(String[] x)
+	public static void main(String args[])
 	{
-		Derived obj = new Derived();
+	
+		LastClass obj = new LastClass();
 		obj.show();
 	}
 }
