@@ -10,9 +10,9 @@ public static void main(String args[]){
 	hm.put("SRK",new Double(4730.18));
 	Set set=hm.entrySet();
 	Iterator i=set.iterator();
+	System.out.println("keys and values:");
 	while(i.hasNext()){
 		Map.Entry me=(Map.Entry)i.next();
-		System.out.println("keys and values:");
 		System.out.print(me.getKey()+":");
 		System.out.println(me.getValue());
 	}
